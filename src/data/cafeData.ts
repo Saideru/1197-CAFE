@@ -2,14 +2,14 @@ import { MenuItem, SignatureDrink, CateringPackage, PromoItem } from '../types';
 
 // Image asset paths (generated images matching brand specifications)
 export const IMAGES = {
-  logoOval: '/src/assets/images/eleven97_official_logo_1785868383429.jpg',
-  mascot: '/src/assets/images/eleven97_mascot_1785867471438.jpg',
-  ubeMatcha: '/src/assets/images/ube_matcha_drink_1785867491083.jpg',
-  strawberryCloud: '/src/assets/images/strawberry_cloud_drink_1785867501650.jpg',
-  goldenHourOat: '/src/assets/images/golden_hour_oat_drink_1785867513886.jpg',
-  lemonEspresso: '/src/assets/images/lemon_espresso_drink_1785867528071.jpg',
-  sunnyNana: '/src/assets/images/sunny_nana_drink_1785867544435.jpg',
-  macAndCheese: '/src/assets/images/mac_and_cheese_bowl_1785867559267.jpg',
+  logoOval: '/images/eleven97_logo_oval_1785867450459.jpg',
+  mascot: '/images/eleven97_mascot_1785867471438.jpg',
+  ubeMatcha: '/images/ube_matcha_drink_1785867491083.jpg',
+  strawberryCloud: '/images/strawberry_cloud_drink_1785867501650.jpg',
+  goldenHourOat: '/images/golden_hour_oat_drink_1785867513886.jpg',
+  lemonEspresso: '/images/lemon_espresso_drink_1785867528071.jpg',
+  sunnyNana: '/images/sunny_nana_drink_1785867544435.jpg',
+  macAndCheese: '/images/mac_and_cheese_bowl_1785867559267.jpg',
 };
 
 export const CAFE_INFO = {
