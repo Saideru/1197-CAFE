@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-fredoka {
+    font-family: 'Fredoka', sans-serif;
+  }
+  .font-righteous {
+    font-family: 'Righteous', display, sans-serif;
+  }
+  .font-script {
+    font-family: 'Pacifico', cursive;
+  }
+  .text-stroke-black {
+    -webkit-text-stroke: 1.5px #000;
+  }
+  .text-stroke-blue {
+    -webkit-text-stroke: 1.5px #003893;
+  }
+  .text-stroke-thick {
+    -webkit-text-stroke: 3px #000;
+  }
+  .text-stroke-thick-blue {
+    -webkit-text-stroke: 3px #0F4C81;
+  }
+  .starburst-badge {
+    clip-path: polygon(
+      50% 0%, 63% 13%, 81% 5%, 83% 24%, 100% 28%, 91% 44%, 100% 60%, 85% 68%, 87% 88%, 68% 85%, 58% 100%, 43% 90%, 28% 98%, 23% 81%, 5% 82%, 13% 64%, 0% 50%, 14% 36%, 4% 19%, 22% 17%, 29% 0%, 43% 10%
+    );
+  }
+}
+
+/* Custom marquee animation */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: 200%;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+

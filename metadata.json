@@ -1,0 +1,6 @@
+{
+  "name": "Eleven97 Neighborhood Cafe",
+  "description": "Single-page website and catering booking portal for Eleven97 Neighborhood Cafe in Mandaluyong, Philippines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
